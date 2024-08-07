@@ -1,0 +1,76 @@
+html {
+    background-color: darkslategrey
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+#img {
+    margin: 20px;
+    border-radius: 25px;
+}
+
+#vs {
+    font-family: sans-serif;
+    margin: 0 3%;
+}
+
+#pergunte {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1em;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms ease 0s;
+    position: relative;
+    height: 3rem;
+    font-size: 1.125rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.caixa:focus {
+    outline: #c46c90 auto 1px;
+    box-shadow: 0 0 3px;
+}
+
+.superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all 0.2s ease 0s;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+}
